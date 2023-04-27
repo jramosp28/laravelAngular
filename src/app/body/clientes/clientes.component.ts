@@ -11,17 +11,6 @@ import { FormularioService } from '../../services/service/service.component';
 })
 export class ClientesComponent {
   form: formMoto[] = [];
-  id?: number;
-  name: string = '';
-  last_name: string  = '';
-  last_name2: string  = '';
-  email: string  = '';
-  phone: string  = '';
-  address: string  = '';
-  city: string  = '';
-  date: string  = '';
-  bike: boolean  = false;
-  bike_model: string  = '';
 
   constructor(private ServiceComponent: FormularioService) {
 
